@@ -19,7 +19,6 @@ function clickButton(){
     var image = document.querySelector("img");
     image.setAttribute("src", randomImageSource);
 
-    // game logic
     // Wisdom world for the image
     if(randomNumber === 1){
 

@@ -15,7 +15,7 @@ section{
 }
 
 .container{
-    width: 100%;
+    width: 650px;
     height: 100%;
     display: grid;
     justify-content: center;
@@ -23,7 +23,7 @@ section{
     text-align: center;
     border: 5px solid #000;
     background-color: #fff;
-    max-width: 650px;
+    border-radius: 150px 0 150px 0;
 }
 
 .container .title{
@@ -44,6 +44,7 @@ section{
     text-align: center;
     align-items: center;
     padding: 20px;
+    text-shadow: 10px 15px 5px #87986a;
 }
 
 .container .button button{
@@ -66,3 +67,20 @@ section{
     font-size: 1em;
 }
 
+@media (max-width: 900px){
+    .container{
+        width: 350px;
+        border-radius: 50px;
+    }
+    .container .text{
+        font-size: 1em;
+        text-shadow: 10px 15px 5px #87986a;
+    }
+    .container .title{
+        font-size: 2em;
+    }
+    .container .img img{
+        width: 200px;
+        height: 200px;
+    }
+}
