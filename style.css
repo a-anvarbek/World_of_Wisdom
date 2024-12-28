@@ -21,6 +21,9 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 5px solid #000;
+    background-color: #fff;
+    max-width: 650px;
 }
 
 .container .title{
@@ -31,11 +34,16 @@ section{
 
 .container .img img{
     border-radius: 50%;
+    width: 250px;
+    height: 250px;
 }
 
 .container .text{
     font-size: 1.5em;
     font-weight: 900;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .container .button button{
